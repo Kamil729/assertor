@@ -64,7 +64,7 @@ pub use assertions::set::OrderedSetAssertion;
 pub use assertions::set::SetAssertion;
 pub use assertions::string::StringAssertion;
 pub use assertions::vec::VecAssertion;
-pub use base::{AssertionResult, AssertionStrategy, Fact, Location, Subject};
+pub use base::{AssertionResult, AssertionStrategy, Fact, Location, Subject, AssertionApi};
 
 mod assertions;
 mod base;
